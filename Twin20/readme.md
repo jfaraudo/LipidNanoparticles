@@ -1,6 +1,6 @@
 Topology and coordinate files for simulation of Tween 20 with NAMD using MARTINI force Field
 
-n using these files please cite the following article:
+When using these files please cite the following article:
 
 Xavier F. Fernandez-Luengo, Juan Camacho and Jordi Faraudo, Nanomaterials 2017, 7(12), 461; https://doi.org/10.3390/nano7120461
 
