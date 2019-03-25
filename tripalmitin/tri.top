@@ -1,0 +1,34 @@
+27 1
+
+! lipids
+RESI TRI        0.0	!	BRI
+ATOM BRI   C1   0.0	!     /  |  \
+ATOM CA1   NaL  0.0	!   CA3 CA2 CA1	
+ATOM CA2   NaL  0.0	!    |   |   |
+ATOM CA3   NaL  0.0	!   BOO	BOJ BOE
+ATOM BOA   C1   0.0	!    |   |   |   
+ATOM BOB   C1   0.0	!   BON BOI BOD  
+ATOM BOC   C1   0.0	!    |   |   |	    
+ATOM BOD   C1   0.0	!   BOM BOH BOC
+ATOM BOE   C1   0.0	!    |   |   |	     
+ATOM BOF   C1   0.0	!   BOL BOG BOB  
+ATOM BOG   C1   0.0	!    |   |   |	
+ATOM BOH   C1   0.0	!   BOK BOF BOA    
+ATOM BOI   C1   0.0	!    
+ATOM BOJ   C1   0.0	!     
+ATOM BOK   C1   0.0	!     
+ATOM BOL   C1   0.0	!	 
+ATOM BOM   C1   0.0	!     
+ATOM BON   C1   0.0	!	 
+ATOM BOO   C1   0.0	!	        
+                                               
+BOND BRI CA1  CA1 BOE  BOE BOD  BOD BOC  BOC BOB  BOB BOA 
+BOND BRI CA2  CA2 BOJ  BOJ BOI  BOI BOH  BOH BOG  BOG BOF   
+BOND BRI CA3  CA3 BOO  BOO BON  BON BOM  BOM BOL  BOL BOK  
+ANGLE BRI CA1 BOE  CA1 BOE BOD  BOE BOD BOC  BOD BOC BOB  BOC BOB BOA
+ANGLE BRI CA2 BOJ  CA2 BOJ BOI  BOJ BOI BOH  BOI BOH BOG  BOH BOG BOF
+ANGLE BRI CA3 BOO  CA3 BOO BON  BOO BON BOM  BON BOM BOL  BOM BOL BOK
+!these angles are not defined in Martini:
+!ANGLE NH3 PO4 GL1  GL1 GL2 C1A  C1B GL1 GL2
+!one should BOke care to specify "auto none" when geneBOting lipid segments in psfgen
+
