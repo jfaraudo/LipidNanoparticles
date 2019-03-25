@@ -1,0 +1,56 @@
+27 1
+
+! lipids
+RESI TWE        0.0	!	RA1
+ATOM RA1   P3   0.0	!        |
+ATOM BE1   NaL  0.0	!	BE1
+ATOM BE2   NaL	0.0	!	 |
+ATOM BE3   NaL  0.0	!	BE2
+ATOM BE4   NaL  0.0	!	 |  
+ATOM TY1   NaL  0.0	!	BE3  
+ATOM TY2   C1   0.0	!	 |    
+ATOM TYO   NaL  0.0	!	BE4 
+ATOM TY3   C1   0.0	!	 |    dubtes amb el TY2 i TY3 i la seva assignació. dubtes amb la assignació de polaritat dels OH
+ATOM TY4   NaL  0.0	!	TY1 - TY2    dubtes amb el HED i la seva assignació de polaritat (paral·lelismes amb DOPE)
+ATOM BE5   NaL  0.0	!	 |        \
+ATOM BE6   NaL  0.0	!	 |         TYO
+ATOM BE7   NaL  0.0	!	 |        /
+ATOM BE8   NaL  0.0	!       TY4 - TY3
+ATOM RA2   P3   0.0	!	 |        \
+ATOM CON   NaL	0.0	!	 BE5       CON
+ATOM BE9   NaL  0.0	!	 |          |  \
+ATOM B10   NaL  0.0	!	 BE6        BE9 B13
+ATOM B11   NaL  0.0	!	 |          |   |
+ATOM B12   NaL  0.0	!	 BE7        B10 B14
+ATOM RA3   P3   0.0	!	 |          |   |
+ATOM B13   NaL  0.0	!	 BE8        B11 B15
+ATOM B14   NaL  0.0	!	 |          |   |
+ATOM B15   NaL  0.0	!	 RA2        B12 B16
+ATOM B16   NaL  0.0	!	            |   |
+ATOM B17   NaL  0.0	!	            RA3 B17
+ATOM HED   NaL  0.0	!	                HED
+ATOM TA1   C1   0.0	!	                |
+ATOM TA2   C1   0.0	!	                TA1
+ATOM TA3   C1   0.0	!	                |
+                        !                       TA2
+                        ! 	                |
+                        !                       TA3
+BOND  RA1 BE1  BE1 BE2  BE2 BE3
+BOND  BE3 BE4  TYO TY3  B14 B15
+BOND  BE4 TY1  TY1 TY2  TY2 TYO
+BOND  B15 B16  B16 B17  B17 HED    
+BOND  TY3 CON  CON B13  B13 B14
+BOND  HED TA1  TA1 TA2  TA2 TA3
+BOND  CON BE9  BE9 B10  B10 B11
+BOND  B11 B12  B12 RA3  BE6 BE7
+BOND  TY1 TY4  TY4 BE5  BE5 BE6 
+BOND  BE7 BE8  BE8 RA2
+ANGLE RA1 BE1 BE2  BE1 BE2 BE3  BE2 BE3 BE4  BE3 BE4 TY1 
+ANGLE BE4 TY1 TY2  TY1 TY2 TYO  TY2 TYO TY3  TYO TY3 CON  TYO TY3 TY4
+ANGLE TY3 TY4 BE5  TY4 BE5 BE6  BE5 BE6 BE7  BE6 BE7 BE8  BE7 BE8 RA2
+ANGLE TY3 CON B13  CON B13 B14  B13 B14 B15  B14 B15 B16  B15 B16 B17  
+ANGLE B16 B17 HED  B17 HED TA1  HED TA1 TA2  TA1 TA2 TA3
+ANGLE TY3 CON BE9  CON BE9 B10  BE9 B10 B11  B10 B11 B12  B11 B12 RA3 
+!these angles are not defined in Martini:
+!ANGLE NH3 PO4 GL1  GL1 GL2 C1A  C1B GL1 GL2
+!one should take care to specify "auto none" when generating lipid segments in psfgen

@@ -1,0 +1,84 @@
+PSF
+
+       3 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology cg_tween_autopsf-temp.top 
+ REMARKS segment O1 { first NONE; last NONE; auto none  }
+
+      31 !NATOM
+       1 O1   1    TWE  RA1  P3     0.000000       72.0000           0
+       2 O1   1    TWE  BE1  NAL    0.000000       72.0000           0
+       3 O1   1    TWE  BE2  NAL    0.000000       72.0000           0
+       4 O1   1    TWE  BE3  NAL    0.000000       72.0000           0
+       5 O1   1    TWE  BE4  NAL    0.000000       72.0000           0
+       6 O1   1    TWE  TY1  NAL    0.000000       72.0000           0
+       7 O1   1    TWE  TY2  C1     0.000000       72.0000           0
+       8 O1   1    TWE  TYO  NAL    0.000000       72.0000           0
+       9 O1   1    TWE  TY3  C1     0.000000       72.0000           0
+      10 O1   1    TWE  TY4  NAL    0.000000       72.0000           0
+      11 O1   1    TWE  BE5  NAL    0.000000       72.0000           0
+      12 O1   1    TWE  BE6  NAL    0.000000       72.0000           0
+      13 O1   1    TWE  BE7  NAL    0.000000       72.0000           0
+      14 O1   1    TWE  BE8  NAL    0.000000       72.0000           0
+      15 O1   1    TWE  RA2  P3     0.000000       72.0000           0
+      16 O1   1    TWE  CON  NAL    0.000000       72.0000           0
+      17 O1   1    TWE  BE9  NAL    0.000000       72.0000           0
+      18 O1   1    TWE  B10  NAL    0.000000       72.0000           0
+      19 O1   1    TWE  B11  NAL    0.000000       72.0000           0
+      20 O1   1    TWE  B12  NAL    0.000000       72.0000           0
+      21 O1   1    TWE  RA3  P3     0.000000       72.0000           0
+      22 O1   1    TWE  B13  NAL    0.000000       72.0000           0
+      23 O1   1    TWE  B14  NAL    0.000000       72.0000           0
+      24 O1   1    TWE  B15  NAL    0.000000       72.0000           0
+      25 O1   1    TWE  B16  NAL    0.000000       72.0000           0
+      26 O1   1    TWE  B17  NAL    0.000000       72.0000           0
+      27 O1   1    TWE  HED  NAL    0.000000       72.0000           0
+      28 O1   1    TWE  CON  NAL    0.000000       72.0000           0
+      29 O1   1    TWE  TA1  C1     0.000000       72.0000           0
+      30 O1   1    TWE  TA2  C1     0.000000       72.0000           0
+      31 O1   1    TWE  TA3  C1     0.000000       72.0000           0
+
+      29 !NBOND: bonds
+       1       2       2       3       3       4       4       5
+       5       6       6       7       6      10       7       8
+       8       9       9      16      10      11      11      12
+      12      13      13      14      14      15      16      22
+      16      17      17      18      18      19      19      20
+      20      21      22      23      23      24      24      25
+      25      26      26      27      27      29      29      30
+      30      31
+
+      28 !NTHETA: angles
+       1       2       3       2       3       4       3       4       5
+       4       5       6       5       6       7       6       7       8
+       7       8       9       8       9      16       8       9      10
+       9      10      11       9      16      22       9      16      17
+      10      11      12      11      12      13      12      13      14
+      13      14      15      16      22      23      16      17      18
+      17      18      19      18      19      20      19      20      21
+      22      23      24      23      24      25      24      25      26
+      25      26      27      26      27      29      27      29      30
+      29      30      31
+
+       0 !NPHI: dihedrals
+
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0
+
+       1       0 !NGRP
+       0       0       0
+
