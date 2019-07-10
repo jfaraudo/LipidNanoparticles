@@ -5,8 +5,14 @@ ForceFields and Topology files for simulation of tripalmitin Lipid Nanoparticles
 
 Please cite the above mentioned Nanomaterials article in any use of the files provided here.
 
+Also, please cite the DOI data in any use of these files:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3295462.svg)](https://doi.org/10.5281/zenodo.3295462)
+
 The simulations are based on the Martini CG model. For general information about Martini please refer to the original source:
 
 http://cgmartini.nl/
+
+
 
 
